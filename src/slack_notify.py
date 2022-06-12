@@ -1,8 +1,4 @@
-from logging import getLogger
-
 import slackweb
-
-log = getLogger(__name__)
 
 """
 Slack通知のメイン処理の実行用スクリプト
@@ -15,12 +11,12 @@ def execute():
     """
 
     total = fetch_request_quiz_total()
-    log.info("リクエスト中のクイズ件数: %s", total)
+    print('リクエスト中のクイズ件数: {}'.format(total))
 
     if total > 0:
         slack_notify(total)
     else:
-        log.info('リクエスト中のクイズは存在しません')
+        print('リクエスト中のクイズは存在しません')
 
 
 def fetch_request_quiz_total():
