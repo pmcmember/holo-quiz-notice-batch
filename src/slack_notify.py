@@ -39,7 +39,7 @@ def slack_notify(total):
     :param total: リクエスト中のクイズの件数
     """
 
-    # TODO MicroMicroCMSの管理用ページのURLが決まり次第URLを修正する
+    # TODO MicroCMSの管理用ページのURLが決まり次第URLを修正する
     _micro_cms_url = 'dummy'
 
     # FIXME webhookのURLはネットで公開すると変更されてしまうので 環境変数などに入れるなどして対策する
