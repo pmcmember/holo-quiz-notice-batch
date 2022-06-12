@@ -9,6 +9,7 @@ start = "python src/main.py runserver"
 [packages]
 requests = "*"
 slackweb = "*"
+urllib3 = "*"
 
 [dev-packages]
 
