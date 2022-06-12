@@ -42,7 +42,7 @@ def slack_notify(total):
     # TODO MicroMicroCMSの管理用ページのURLが決まり次第URLを修正する
     _micro_cms_url = 'dummy'
 
-    _slack_url = 'https://hooks.slack.com/services/T02GQ6JF5D2/B03K9Q92CG3/HFEYwSFaKEBN3EW3ieQRPBzc'
+    _slack_url = 'https://hooks.slack.com/services/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'
     slack_text = 'holo-quiz-notice-batch 処理終了\n' \
                  '\n' \
                  'リクエスト中のクイズが存在します\n' \
