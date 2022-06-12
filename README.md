@@ -3,7 +3,7 @@
 AWS関連の処理は未作成
 
 ## 処理内容
-Croud Watch Events を使用して　AWS Lambdaの定期実行を行い　定期的に以下の処理を行います。
+cloud Watch Events を使用して　AWS Lambdaの定期実行を行い　定期的に以下の処理を行います。
 
 1. MicroCMSから追加・更新リクエスト状態のクイズの件数を取得
 1. 件数を[Slackのアラート部屋]へ通知
@@ -17,10 +17,11 @@ Croud Watch Events を使用して　AWS Lambdaの定期実行を行い　定期
 - PyCharmやVSCodeなどのPythonを実行出来るIDE(任意)
 
 ### 実行
-ローカルでの起動用のスクリプトファイルとして main.pyを用意しています。<br>
-main.pyをIDE上で指定して実行するか 以下のコマンドで実行してください
+pipenvでパッケージ管理しているため　以下のコマンドでscriptの実行を行ってください<br>
+main.pyが実行されます
+
 ````
-python main.py
+pipenv run start
 ````
 
 ## 参考
